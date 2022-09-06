@@ -35,7 +35,7 @@ struct ContentView: View {
                         
                         
                         Text("12:00").foregroundColor(.white)
-                            .font(Font.custom("Amiri-Regular", size: 60)).foregroundColor(.white)
+                            .font(Font.custom("Amiri-Regular", size: 70)).foregroundColor(.white)
                         
                         Text("باقي على الأذان")
                             .font(Font.custom("Amiri-Regular", size: 20)).foregroundColor(.white)
@@ -73,11 +73,13 @@ struct ContentView: View {
                         }
                         
                         Divider().foregroundColor(.white)
+                            .frame(width: 400)
+                            .background(Color.white)
                       Spacer()
                         HStack{
                             Text("4:18").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26)).foregroundColor(.white)
                             
-                            Text("                                            ")
+                            Text("                                                ")
                             Text("الفجر").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                         }
