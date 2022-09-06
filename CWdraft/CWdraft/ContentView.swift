@@ -64,7 +64,7 @@ struct ContentView: View {
                             Image(systemName: "arrowtriangle.backward.fill").foregroundColor(.white)
                             Spacer()
                             Text("٥ سبتمبر  ٢٠٢٢").foregroundColor(.white)
-                                .font(Font.custom("Amiri-Regular", size: 20)).foregroundColor(.white)
+                                .font(Font.custom("Amiri-Regular", size: 27)).foregroundColor(.white)
                             
                             Spacer()
                             Image(systemName: "arrowtriangle.forward.fill").foregroundColor(.white)
@@ -73,12 +73,20 @@ struct ContentView: View {
                         }
                         
                         Divider().foregroundColor(.white)
-                      
+                      Spacer()
                         HStack{
-                            Text("3:30").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26)).foregroundColor(.white)
+                            Text("4:18").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26)).foregroundColor(.white)
                             
                             Text("                                            ")
                             Text("الفجر").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            
+                        }
+                        
+                        HStack{
+                            Text("5:29").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            
+                            Text("                                            ")
+                            Text("الشروق").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                         }
                        
@@ -87,7 +95,7 @@ struct ContentView: View {
                             Spacer()
                             HStack{
                                
-                                Text("3:30") .font(Font.custom("Amiri-Regular", size: 26))
+                                Text("11:48") .font(Font.custom("Amiri-Regular", size: 26))
                                 
                                 Text("                                            ")
                                 Text("الظهر") .font(Font.custom("Amiri-Regular", size: 26))
@@ -99,27 +107,27 @@ struct ContentView: View {
                        
                         
                         HStack{
-                            Text("3:30").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            Text("3:20").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                             Text("                                            ")
-                            Text("الفجر").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            Text("العصر").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                         }
                         HStack{
-                            Text("3:30").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26)
+                            Text("6:21").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26)
                             )
                             Text("                                            ")
-                            Text("الفجر").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            Text("المغرب").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                         }
                         HStack{
-                            Text("3:30").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            Text("7:24").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                             Text("                                            ")
-                            Text("الفجر").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
+                            Text("العشاء").foregroundColor(.white) .font(Font.custom("Amiri-Regular", size: 26))
                             
                         }
-                 
+                 Spacer()
                         
                         
                     }
