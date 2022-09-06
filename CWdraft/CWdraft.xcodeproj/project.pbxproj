@@ -11,6 +11,8 @@
 		D54476C228C69FA1007F2435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54476C128C69FA1007F2435 /* ContentView.swift */; };
 		D54476C428C69FA1007F2435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54476C328C69FA1007F2435 /* Assets.xcassets */; };
 		D54476C728C69FA1007F2435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54476C628C69FA1007F2435 /* Preview Assets.xcassets */; };
+		D54476CE28C6B5F8007F2435 /* Amiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D54476CD28C6B5F8007F2435 /* Amiri-Regular.ttf */; };
+		D5A9251128C6C50400E821FE /* ContentView.swift copy in Resources */ = {isa = PBXBuildFile; fileRef = D5A9251028C6C50400E821FE /* ContentView.swift copy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		D54476C128C69FA1007F2435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D54476C328C69FA1007F2435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54476C628C69FA1007F2435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D54476CD28C6B5F8007F2435 /* Amiri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Amiri-Regular.ttf"; path = "../../../../../Downloads/Amiri/Amiri-Regular.ttf"; sourceTree = "<group>"; };
+		D5A9250F28C6B9C900E821FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D5A9251028C6C50400E821FE /* ContentView.swift copy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "ContentView.swift copy"; path = "../../../../../Desktop/ContentView.swift copy"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +56,12 @@
 		D54476BE28C69FA1007F2435 /* CWdraft */ = {
 			isa = PBXGroup;
 			children = (
+				D5A9250F28C6B9C900E821FE /* Info.plist */,
 				D54476BF28C69FA1007F2435 /* CWdraftApp.swift */,
 				D54476C128C69FA1007F2435 /* ContentView.swift */,
+				D5A9251028C6C50400E821FE /* ContentView.swift copy */,
 				D54476C328C69FA1007F2435 /* Assets.xcassets */,
+				D54476CD28C6B5F8007F2435 /* Amiri-Regular.ttf */,
 				D54476C528C69FA1007F2435 /* Preview Content */,
 			);
 			path = CWdraft;
@@ -127,6 +135,8 @@
 			files = (
 				D54476C728C69FA1007F2435 /* Preview Assets.xcassets in Resources */,
 				D54476C428C69FA1007F2435 /* Assets.xcassets in Resources */,
+				D5A9251128C6C50400E821FE /* ContentView.swift copy in Resources */,
+				D54476CE28C6B5F8007F2435 /* Amiri-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +280,7 @@
 				DEVELOPMENT_TEAM = 6A39V9936X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CWdraft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_TEAM = 6A39V9936X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CWdraft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
